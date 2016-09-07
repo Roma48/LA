@@ -1,0 +1,171 @@
+/* Tribe Events
+------------------------------------------------------------------------------------ */
+
+/* Hide Tribe breadcrumbs - our more comfortable */
+#tribe-events-content-wrapper {
+    max-width: 972px;
+    margin: auto;
+    padding-top: 6em;
+    padding-bottom: 5.5em;
+}
+p.tribe-events-back { display:none; }
+#tribe-bar-form label {
+    font-family: 'Montserrat';
+    font-size: 0.824em;
+}
+#tribe-bar-form input[type=text]::-webkit-input-placeholder {
+    font-style: normal;
+}
+#tribe-bar-form input[type=text]:-moz-placeholder {
+    font-style: normal;
+}
+#tribe-bar-form input[type=text]::-moz-placeholder {
+    font-style: normal;
+}
+#tribe-bar-form input[type=text]:-ms-input-placeholder {
+    font-style: normal;
+}
+
+/* Main template */
+#tribe-events-pg-template,
+.events-list .tribe-events-loop, .tribe-events-day .tribe-events-loop, .single-tribe_venue .tribe-events-loop, .single-tribe_organizer .tribe-events-loop { max-width:none; }
+.tribe-events-day .tribe-events-day-time-slot .vevent { margin-left:0; }
+
+/* Titles */
+.tribe-events-meta-group .tribe-events-single-section-title { padding-bottom:0; }
+h2.tribe-events-page-title, #tribe-geo-results h2.tribe-events-page-title { font-weight:400; padding-bottom:0;     margin-bottom: 1em;}
+.tribe-events-list-separator-month { font-weight:400; }
+#tribe-events-header { display:none; }
+.tribe-events-list .type-tribe_events h2 { font-size: 3em; }
+
+/* Buttons and fields */
+#tribe-bar-form input[type="text"],
+.tribe-events-button, #tribe-events .tribe-events-button { font-weight:400; }
+ul.tribe-events-sub-nav a, .tribe-events-back a, .tribe-events-list-widget .tribe-events-widget-link a, .tribe-events-adv-list-widget .tribe-events-widget-link a {
+	font-weight:400;
+	font-size:inherit;
+}
+.single-tribe_events #tribe-events-header li, .single-tribe_events #tribe-events-footer li { width:auto; }
+
+/* Featured image */
+.single-tribe_events .tribe-events-event-image {
+    float: right;
+    margin: 0 0 2em 2em;
+    max-width: 50%;
+}
+
+/* Event details */
+.tribe-events-event-meta .author { margin-bottom:0; }
+.tribe-events-venue-details .author:after { display:none; }
+a.tribe-events-ical, a.tribe-events-gcal { margin-top:0; }
+.tribe-events-loop .tribe-events-event-meta,
+.tribe-events-tooltip .duration { font-weight:400; }
+
+/* Event footer */
+#tribe-events-footer h3 { display:none; margin-top:0; font-size:1.5em; }
+
+/* Buttons */
+a.tribe-events-read-more,
+.tribe-events-button,
+.tribe-events-nav-previous a,
+.tribe-events-nav-next a,
+.tribe-events-widget-link a,
+.tribe-events-viewmore a {
+	display:inline-block;
+	text-align:center;
+	padding:0.85em 1.15em;
+	font-size:0.875em;
+	line-height: 1.2857em;
+	font-weight:700;
+	margin:0 0 4px 4px;
+	border:none;
+}
+a.tribe-events-read-more:hover,
+.tribe-events-button:hover,
+.tribe-events-nav-previous a:hover,
+.tribe-events-nav-next a:hover,
+.tribe-events-widget-link a:hover,
+.tribe-events-viewmore a:hover {
+	border:none;
+}
+
+/* Widgets */
+.tribe-events-list-widget ol { margin:0; padding: 0; }
+.tribe-events-list-widget ol li { margin-bottom:1.5em; }
+.tribe-events-list-widget .entry-title { font-size: 1.15em; font-weight:400; margin:0; }
+.tribe-events-list-widget .duration { font-weight:400; }
+#tribe-events-content table.tribe-events-calendar {
+    font-size: 1em;
+}
+#tribe-events-content .tribe-events-calendar td, #tribe-events-content table.tribe-events-calendar {
+    border: 0;
+}
+#tribe-events-content table.tribe-events-calendar thead {
+    display: none;
+}
+#tribe-events-content .tribe-events-calendar td {
+    border-right: 10px solid #ffffff;
+    border-bottom: 10px solid #ffffff;
+    height: 135px;
+    font-size: 1em;
+}
+#tribe-events-content .tribe-events-calendar tr td:last-child {
+    border-right: 0;
+}
+.tribe-events-calendar td div[id*=tribe-events-daynum-] {
+    font-family: 'Montserrat';
+    font-size: 1.176em;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0.85em;
+}
+#tribe-events-content .tribe-events-calendar div[id*=tribe-events-event-] h3.tribe-events-month-event-title {
+    font-size: 1em;
+    font-family: 'PT Serif';
+    font-weight: 400;
+}
+#tribe-events-content .tribe-events-tooltip h4 {
+    font-family: 'Montserrat';
+    font-size: 1.588em;
+    font-weight: 400;
+    line-height: 1.372;
+    text-align: left;
+    text-transform: none;
+}
+.tribe-events-tooltip .tribe-events-event-body {
+    font-size: 1em;
+}
+.tribe-events-tooltip .tribe-events-event-body .tribe-event-duration {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.tribe-events-tooltip .tribe-events-event-thumb {
+    display: none;
+}
+.recurring-info-tooltip, .tribe-events-calendar .tribe-events-tooltip, .tribe-events-week .tribe-events-tooltip {
+    padding: 2em 2em 1em;
+}
+.tribe-events-right .tribe-events-tooltip .tribe-events-arrow {
+    display: none;
+}
+#tribe-events-content .tribe-events-calendar td.tribe-events-othermonth * {
+    display: none;
+}
+#tribe-events-footer .tribe-events-sub-nav li a span, #tribe-events-header .tribe-events-sub-nav li a span {
+    font-size: 1.5em;
+}
+.events-archive.events-gridview #tribe-events-content table .type-tribe_events {
+    text-align: center;
+}
+#tribe-events-pg-template .tribe-events-content h1, .tribe-events-after-html h1, .tribe-events-before-html h1 {
+    font-size: 2.941em;
+}
+#tribe-events-pg-template .tribe-events-content h4, .tribe-events-after-html h4, .tribe-events-before-html h4 {
+    font-size: 1.059em;
+}
+.recurring-info-tooltip, .tribe-events-calendar .tribe-events-tooltip, .tribe-events-week .tribe-events-tooltip {
+    text-align: left;
+}
+.tribe-events-tooltip .tribe-events-arrow {
+    display: none;
+}

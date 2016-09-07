@@ -1,0 +1,11 @@
+Version 1.0
+    Realise
+Version 1.1
+    Increased the maximum size of a logo
+Version 1.2
+    Demo data installation improved.
+    Updated all plugins.
+    Added new CSS styles.
+Version 1.3
+    Updated Revolution Slider.
+    Google Map's issue fixed.
